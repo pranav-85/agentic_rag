@@ -2,7 +2,7 @@ from PIL import Image
 import io
 import base64
 from pathlib import Path
-from document_parser import parse_pdf
+from parser import parse_pdf
 from transformers import AutoTokenizer
 
 # Config
